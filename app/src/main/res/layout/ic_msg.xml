@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/Ln_msg"
+        android:background="@drawable/ic_bkg_msg">
+
+            <TextView
+            android:id="@+id/Lbl_msg"
+            style="@style/Lbl_msg"
+            android:textColor="#333132"
+            />
+
+        <Button
+            android:id="@+id/btn_msg01"
+            style="@style/Btn_msg"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_msg02"
+                android:width="50dp"
+                style="@style/Btn_msg"
+                android:layout_weight="0.5"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="35dp"
+                />
+            <Button
+                android:id="@+id/btn_msg03"
+                android:width="50dp"
+                style="@style/Btn_msg"
+                android:layout_weight="0.5"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/bkg_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <item>
+        <shape
+            android:shape="rectangle"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <corners
+                android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp"
+                />
+
+        </shape>
+    </item>
+
+</layer-list>

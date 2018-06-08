@@ -1,0 +1,248 @@
+<resources>
+
+    <style name="FullScreen" parent="AppTheme">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Ln">
+        <!-- Linear Layout Geral -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="Ln_msg">
+        <!-- Linear Layout da Mensagem -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">30dp</item>
+        <item name="android:layout_margin">35dp</item>
+
+
+    </style>
+
+    <style name="Bkg">
+        <!-- Fundo Principal -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:contentDescription">@string/bkg_principal</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Lg">
+        <!-- Logo Principal -->
+        <item name="android:layout_width">267px</item>
+        <item name="android:layout_height">59px</item>
+        <item name="android:contentDescription">@string/img_logo</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Img_logo">
+        <!-- Imagem do Slide Show -->
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">69dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="Tit_tela">
+        <!-- Título da Tela -->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">69dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">#00365B</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="Btn_red_brc">
+        <!-- Imagem da bolinha branca -->
+        <item name="android:layout_width">7dp</item>
+        <item name="android:layout_height">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/ic_btn_red_brc</item>
+    </style>
+
+    <style name="Btn_social">
+        <!-- Imagem da bolinha transparente -->
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="Edt_txt">
+        <!-- Textbox -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:height">37dp</item>
+        <item name="android:background">@drawable/ic_bkg_edt</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#00365B</item>
+        <item name="android:textColorHint">#00365B</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+
+        <!--<item name="android:cursorVisible">false</item>-->
+    </style>
+
+    <style name="Edt_pass" parent="Edt_txt">
+        <!-- Password -->
+        <item name="android:inputType">textPassword</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingTop">7dp</item>
+    </style>
+
+    <style name="Lnk">
+        <!-- Link -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#00365B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+    <style name="Lbl">
+        <!-- Label -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="Chk">
+        <!-- Checkbox -->
+        <item name="android:buttonTint">#FFFFFF</item>
+        <item name="android:buttonStyle">@drawable/ic_bkg_edt</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="Lbl_msg">
+        <!-- Label da mensagem-->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#333132</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+
+    <style name="Lbl_md" parent="Lnk">
+        <!-- Label Médio -->
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- <style name="Btn">
+
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/ic_btn</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/multicolore</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">95dp</item>
+    </style> -->
+
+    <style name="Btn_msg">
+        <!-- Botão da Mensagem -->
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">37dp</item>
+        <item name="android:background">@drawable/ic_btn_msg</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Btn_red">
+        <!-- Botão Redondo -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">37dp</item>
+        <item name="android:background">@drawable/ic_btn_red</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Btn_red2">
+        <!-- Botão Redondo -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">37dp</item>
+        <item name="android:background">@drawable/ic_btn_red2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">#FFCB06</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Btn_direcao">
+        <!-- Botão Avançar ou Retornar -->
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="Jan_aviso" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Style para AlertDialogo -->
+        <item name="android:background">@drawable/ic_bkg_msg</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Btn_msg</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Btn_msg</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Btn_msg</item>
+    </style>
+
+    <style name="Img_msg">
+        <!-- Imagem da Mensagem -->
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FullScreen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="FullScreen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

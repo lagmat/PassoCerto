@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCB06"
+    tools:context="passocerto.com.br.passocerto.MainActivity">
+
+    <LinearLayout style="@style/Ln">
+
+        <ImageView
+            android:id="@+id/img_logo_home"
+            style="@style/Img_logo"
+            android:contentDescription="@string/img_logo"
+            app:srcCompat="@drawable/img_logo_home" />
+
+        <LinearLayout style="@style/Ln">
+
+            <EditText
+                android:id="@+id/edt_login"
+                style="@style/Edt_txt"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:hint="@string/edt_login" />
+
+            <EditText
+                android:id="@+id/edt_senha"
+                style="@style/Edt_pass"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:hint="@string/edt_senha" />
+
+            <Button
+                android:id="@+id/btn_avancar"
+                style="@style/Btn_red2"
+                android:text="@string/btn_avancar"
+                android:onClick="efetuarLogin"
+                />
+
+            <TextView
+                android:id="@+id/lnk_esqueceu_senha"
+                style="@style/Lnk"
+                android:text="@string/lnk_esqueceu_senha"
+                />
+
+            <Button
+                android:id="@+id/btn_cadastro"
+                style="@style/Btn_red"
+                android:text="@string/btn_cadastro"
+                />
+
+            <TextView
+                android:id="@+id/lbl_conecte"
+                style="@style/Lbl"
+                android:text="@string/lbl_conect"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_social_facebook"
+                    style="@style/Btn_social"
+                    android:background="@drawable/btn_social_facebook"
+                    />
+
+                <Button
+                    android:id="@+id/btn_social_Google"
+                    style="@style/Btn_social"
+                    android:background="@drawable/btn_social_google"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lnk_termos_uso"
+                style="@style/Lnk"
+                android:text="@string/lnk_termos_uso"
+                android:layout_marginTop="60dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

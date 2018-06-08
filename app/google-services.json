@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "137193909703",
+    "firebase_url": "https://passocerto-8e5ce.firebaseio.com",
+    "project_id": "passocerto-8e5ce",
+    "storage_bucket": "passocerto-8e5ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137193909703:android:4295b4f6da9d02f0",
+        "android_client_info": {
+          "package_name": "passocerto.com.br.passocerto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137193909703-b6qs501mr8i1sf81dl0ujtgfrm422fog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "passocerto.com.br.passocerto",
+            "certificate_hash": "a8b93bf5aff5999eb4bbdca4a0a5415183cce3bf"
+          }
+        },
+        {
+          "client_id": "137193909703-oeseov80hg9s9dgb3t5fg9s3066s0ttf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "137193909703-oeseov80hg9s9dgb3t5fg9s3066s0ttf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrjO96EdTLKBT3lyQttlAz9Zk3fULBMhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137193909703-oeseov80hg9s9dgb3t5fg9s3066s0ttf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

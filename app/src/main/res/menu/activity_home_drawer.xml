@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cadastro_evento"
+            android:icon="@drawable/ico_add"
+            android:title="@string/tit_cadastro_evento" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ico_map"
+            android:title="@string/tit_mapa" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ico_menu_ajuda"
+            android:title="@string/tit_sobre" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ico_menu_sair"
+            android:title="@string/tit_sair" />
+    </group>
+</menu>
